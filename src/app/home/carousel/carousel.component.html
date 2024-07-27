@@ -1,0 +1,10 @@
+<div class="carousel-container">
+    <ngb-carousel *ngIf="slides.length">
+      <ng-template ngbSlide *ngFor="let slide of slides" [books]="slide">
+        <div class="slide-content">
+          <app-card *ngFor="let book of slide" [book]="book"></app-card>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+  

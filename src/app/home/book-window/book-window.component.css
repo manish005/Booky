@@ -1,0 +1,20 @@
+/* src/app/book-window/book-window.component.css */
+.book-window {
+    padding: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%; /* Ensures the search box spans the full width of the container */
+    margin-bottom: 20px; /* Space between the search box and the book container */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's width and height */
+  }
+  
+  .books-container {
+    width:1500px;
+    min-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between book cards */
+    justify-content: flex-start; /* Aligns cards to the left */
+  }
+  

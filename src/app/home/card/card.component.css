@@ -1,0 +1,62 @@
+/* src/app/book-card/book-card.component.css */
+.card {
+    position: relative;
+    width: 200px; /* Fixed width for cards */
+    height: 320px; /* Adjust height as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire card */
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Bottom half of the card */
+    background: rgba(255, 255, 255, 0.732); /* White background with transparency */
+    backdrop-filter: blur(-5px); /* Blur effect */
+    transform: translateY(100%); /* Hide content initially */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligns content to top and bottom */
+  }
+  
+  .card-content .mat-card-title, .card-content .mat-card-subtitle {
+    text-align: left; /* Aligns text to the left */
+  }
+  
+  .mat-card-actions {
+    display: flex;
+    justify-content: space-between; /* Places buttons on opposite ends */
+    margin-top: 8px; /* Adjust spacing if needed */
+  }
+  
+  .mat-card-actions button {
+    margin: 0 8px; /* Adds horizontal space between buttons */
+    flex: 1;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card:hover .card-content {
+    transform: translateY(0); /* Show content on hover */
+  }
+  
+  .smallfnt{
+    font-size: 0.9em;
+  }

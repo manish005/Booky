@@ -1,0 +1,53 @@
+[
+    {
+      "title": "The Power Within",
+      "author": "James Carter",
+      "image": "assets/book1.jpg"
+    },
+    {
+      "title": "Rise Above",
+      "author": "Sophia Bennett",
+      "image": "assets/book2.jpg"
+    },
+    {
+      "title": "Unstoppable Drive",
+      "author": "Michael Johnson",
+      "image": "assets/book3.jpg"
+    },
+    {
+      "title": "Ignite Your Passion",
+      "author": "Emily Parker",
+      "image": "assets/book4.jpg"
+    },
+    {
+      "title": "Limitless Potential",
+      "author": "David Martinez",
+      "image": "assets/book5.jpg"
+    },
+    {
+      "title": "Embrace the Challenge",
+      "author": "Ava Smith",
+      "image": "assets/book6.jpg"
+    },
+    {
+      "title": "Success Mindset",
+      "author": "Daniel Lee",
+      "image": "assets/book7.jpg"
+    },
+    {
+      "title": "Beyond the Limits",
+      "author": "Olivia Davis",
+      "image": "assets/book8.jpg"
+    },
+    {
+        "title": "Limitless Potential",
+        "author": "David Martinez",
+        "image": "assets/book9.jpg"
+      },
+      {
+        "title": "Embrace the Challenge",
+        "author": "Ava Smith",
+        "image": "assets/book10.jpg"
+      }
+  ]
+  

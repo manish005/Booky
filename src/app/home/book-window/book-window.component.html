@@ -1,0 +1,12 @@
+<!-- src/app/book-window/book-window.component.html -->
+<div class="book-window">
+    <mat-form-field appearance="fill">
+      <mat-label>Search</mat-label>
+      <input matInput [(ngModel)]="searchTerm" (ngModelChange)="filterBooks()" placeholder="Search for books">
+    </mat-form-field>
+  
+    <div class="books-container">
+      <app-card *ngFor="let book of filteredBooks" [book]="book"></app-card>
+    </div>
+  </div>
+  

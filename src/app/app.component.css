@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.maincontainer {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .mainSideNavContainer {
+    display: block;
+    height: 100vh;
+    /* margin:10px 0 0px 10px; */
+  }
+  
+ 
+.sidenavMain {
+    min-width: 13vw;
+  }
+  
+/* Styles for tablets and small desktops */
+@media (width: 600px) {
+  .sidenavMain {
+    width: 60vw; /* Adjust width for tablets and small desktops */
+  }
+}
+
+/* Styles for larger desktops */
+@media (min-width: 1024px) {
+  .sidenavMain {
+    width: 60vw; /* Specific width for larger desktops */
+  }
+}
+
+/* Optional: Styles for very large screens */
+@media (min-width: 1440px) {
+  .sidenavMain {
+    width: 13vw; /* Adjust width for very large screens if necessary */
+  }
+}
+  .sidenav-button {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .sideNavMenuBtn{
+    width:100%;
+    margin-top:35%;
+    display:grid;
+    place-items: center;
+    gap:10px;
+  }
+  .sideNavHeading{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 5rem;
+  }
+  .BrandLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    font-size: 1.8rem;
+    color:rgb(134, 3, 178);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  .mainContainerContent{
+    margin:30px 5px 0px 30px;
+    display: block;
+    width:95%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
